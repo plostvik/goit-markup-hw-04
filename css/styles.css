@@ -90,6 +90,10 @@ button {
 
 /* Шапка сайта */
 
+.header {
+	border-bottom: 1px solid #ececec;
+}
+
 .header .container {
 	display: flex;
 	align-items: center;
@@ -141,7 +145,17 @@ button {
 
 .site-nav .link.current {
 	color: var(--accent-color);
+	/* border-bottom: 4px solid;
+	border-radius: 2px; */
 }
+
+/* .site-nav .link.current::after {
+	display: block;
+	content: "";
+	height: 4px;
+	background-color: var(--accent-color);
+	border-radius: 2px;
+} */
 
 .contacts {
 	margin-left: auto;
